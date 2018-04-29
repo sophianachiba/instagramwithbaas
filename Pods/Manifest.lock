@@ -1,0 +1,18 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - OneSignal (2.5.4)
+  - Parse (1.15.1):
+    - Bolts/Tasks (~> 1.8)
+
+DEPENDENCIES:
+  - OneSignal (< 3.0, >= 2.5.2)
+  - Parse
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  OneSignal: da994bcf6a2efbdceaf71e389e1d05245c562899
+  Parse: b7a77b20b8a6dede8058da1e2b339593578ce158
+
+PODFILE CHECKSUM: 92b65d84ca6398f13d01598f805d311b8ef51fed
+
+COCOAPODS: 1.3.0

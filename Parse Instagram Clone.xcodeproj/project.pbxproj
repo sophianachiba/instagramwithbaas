@@ -7,23 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FC9F4705CE66FABB374B9D3 /* Pods_Parse_Instagram_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0111453A64D364CB2819A425 /* Pods_Parse_Instagram_Clone.framework */; };
+		AF10A7D91F46811E00F5415C /* Sent.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7CF1F46811E00F5415C /* Sent.png */; };
+		AF10A7DA1F46811E00F5415C /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D01F46811E00F5415C /* comment.png */; };
+		AF10A7DB1F46811E00F5415C /* ProfilePost.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D11F46811E00F5415C /* ProfilePost.png */; };
+		AF10A7DC1F46811E00F5415C /* ProfileMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D21F46811E00F5415C /* ProfileMenu.png */; };
+		AF10A7DD1F46811E00F5415C /* heartPost.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D31F46811E00F5415C /* heartPost.png */; };
+		AF10A7DE1F46811E00F5415C /* heartMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D41F46811E00F5415C /* heartMenu.png */; };
+		AF10A7DF1F46811E00F5415C /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D51F46811E00F5415C /* add.png */; };
+		AF10A7E01F46811E00F5415C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D61F46811E00F5415C /* search.png */; };
+		AF10A7E11F46811E00F5415C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D71F46811E00F5415C /* home.png */; };
+		AF10A7E21F46811E00F5415C /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7D81F46811E00F5415C /* Profile.png */; };
+		AF10A7E81F46C7DF00F5415C /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7E71F46C7DF00F5415C /* camera.png */; };
+		AF10A7EB1F474BEC00F5415C /* 120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7E91F474BEC00F5415C /* 120X120.png */; };
+		AF10A7EC1F474BEC00F5415C /* 180X180.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7EA1F474BEC00F5415C /* 180X180.png */; };
+		AF10A7EF1F474EBF00F5415C /* 48X48.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7ED1F474EBF00F5415C /* 48X48.png */; };
+		AF10A7F01F474EBF00F5415C /* 55X55.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7EE1F474EBF00F5415C /* 55X55.png */; };
+		AF10A7F21F47515900F5415C /* 58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7F11F47515900F5415C /* 58X58.png */; };
+		AF10A7F41F4751A800F5415C /* 60X60.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7F31F4751A800F5415C /* 60X60.png */; };
+		AF10A7F61F47523100F5415C /* 87X87.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10A7F51F47523100F5415C /* 87X87.png */; };
 		AF2581861F38FB4A00912FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581851F38FB4A00912FD1 /* AppDelegate.swift */; };
-		AF2581881F38FB4A00912FD1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581871F38FB4A00912FD1 /* FirstViewController.swift */; };
-		AF25818A1F38FB4A00912FD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581891F38FB4A00912FD1 /* SecondViewController.swift */; };
+		AF2581881F38FB4A00912FD1 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581871F38FB4A00912FD1 /* FeedVC.swift */; };
+		AF25818A1F38FB4A00912FD1 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581891F38FB4A00912FD1 /* UploadVC.swift */; };
 		AF25818D1F38FB4A00912FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25818B1F38FB4A00912FD1 /* Main.storyboard */; };
 		AF25818F1F38FB4A00912FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF25818E1F38FB4A00912FD1 /* Assets.xcassets */; };
 		AF2581921F38FB4A00912FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2581901F38FB4A00912FD1 /* LaunchScreen.storyboard */; };
+		AF25819A1F38FD0B00912FD1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2581991F38FD0B00912FD1 /* SignUpVC.swift */; };
+		AFBD31411F3AAD900028885D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD31401F3AAD900028885D /* FeedCell.swift */; };
+		AFBD31431F3AB1490028885D /* addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD31421F3AB1490028885D /* addimage.png */; };
+		AFBD314C1F3CF7230028885D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD314B1F3CF7230028885D /* NotificationService.swift */; };
+		AFBD31501F3CF7230028885D /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AFBD31491F3CF7220028885D /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F85F7A4E44780C17D3FBFE4C /* Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5519D3774E6E2EF16A8C5486 /* Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AFBD314E1F3CF7230028885D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF25817A1F38FB4A00912FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBD31481F3CF7220028885D;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFBD31541F3CF7230028885D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFBD31501F3CF7230028885D /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0111453A64D364CB2819A425 /* Pods_Parse_Instagram_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Instagram_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA3BC95FBCC981C85F44FDB /* Pods-Parse Instagram Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Instagram Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse Instagram Clone/Pods-Parse Instagram Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		43A4E15563B1889718DE2506 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		5519D3774E6E2EF16A8C5486 /* Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC68F3FB1BCD3EDDB8B65B6 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		AF10A7CF1F46811E00F5415C /* Sent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sent.png; sourceTree = "<group>"; };
+		AF10A7D01F46811E00F5415C /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		AF10A7D11F46811E00F5415C /* ProfilePost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfilePost.png; sourceTree = "<group>"; };
+		AF10A7D21F46811E00F5415C /* ProfileMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileMenu.png; sourceTree = "<group>"; };
+		AF10A7D31F46811E00F5415C /* heartPost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartPost.png; sourceTree = "<group>"; };
+		AF10A7D41F46811E00F5415C /* heartMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartMenu.png; sourceTree = "<group>"; };
+		AF10A7D51F46811E00F5415C /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AF10A7D61F46811E00F5415C /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		AF10A7D71F46811E00F5415C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		AF10A7D81F46811E00F5415C /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		AF10A7E71F46C7DF00F5415C /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		AF10A7E91F474BEC00F5415C /* 120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120X120.png; sourceTree = "<group>"; };
+		AF10A7EA1F474BEC00F5415C /* 180X180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180X180.png; sourceTree = "<group>"; };
+		AF10A7ED1F474EBF00F5415C /* 48X48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 48X48.png; sourceTree = "<group>"; };
+		AF10A7EE1F474EBF00F5415C /* 55X55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 55X55.png; sourceTree = "<group>"; };
+		AF10A7F11F47515900F5415C /* 58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58X58.png; sourceTree = "<group>"; };
+		AF10A7F31F4751A800F5415C /* 60X60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60X60.png; sourceTree = "<group>"; };
+		AF10A7F51F47523100F5415C /* 87X87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87X87.png; sourceTree = "<group>"; };
 		AF2581821F38FB4A00912FD1 /* Parse Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2581851F38FB4A00912FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF2581871F38FB4A00912FD1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AF2581891F38FB4A00912FD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AF2581871F38FB4A00912FD1 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		AF2581891F38FB4A00912FD1 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		AF25818C1F38FB4A00912FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF25818E1F38FB4A00912FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2581911F38FB4A00912FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2581931F38FB4A00912FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2581991F38FD0B00912FD1 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		AFBD31401F3AAD900028885D /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		AFBD31421F3AB1490028885D /* addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addimage.png; sourceTree = "<group>"; };
+		AFBD31441F3CF2970028885D /* Parse Instagram Clone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Parse Instagram Clone.entitlements"; sourceTree = "<group>"; };
+		AFBD31491F3CF7220028885D /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBD314B1F3CF7230028885D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AFBD314D1F3CF7230028885D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46A73495F8DCDEFF90B0692 /* Pods-Parse Instagram Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Instagram Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parse Instagram Clone/Pods-Parse Instagram Clone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +111,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC9F4705CE66FABB374B9D3 /* Pods_Parse_Instagram_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBD31461F3CF7220028885D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F7A4E44780C17D3FBFE4C /* Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF10A7CE1F4680AA00F5415C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				AF10A7F51F47523100F5415C /* 87X87.png */,
+				AF10A7F31F4751A800F5415C /* 60X60.png */,
+				AF10A7F11F47515900F5415C /* 58X58.png */,
+				AF10A7ED1F474EBF00F5415C /* 48X48.png */,
+				AF10A7EE1F474EBF00F5415C /* 55X55.png */,
+				AF25818E1F38FB4A00912FD1 /* Assets.xcassets */,
+				AF10A7E91F474BEC00F5415C /* 120X120.png */,
+				AF10A7EA1F474BEC00F5415C /* 180X180.png */,
+				AF10A7E71F46C7DF00F5415C /* camera.png */,
+				AF10A7CF1F46811E00F5415C /* Sent.png */,
+				AF10A7D01F46811E00F5415C /* comment.png */,
+				AF10A7D11F46811E00F5415C /* ProfilePost.png */,
+				AF10A7D21F46811E00F5415C /* ProfileMenu.png */,
+				AF10A7D31F46811E00F5415C /* heartPost.png */,
+				AF10A7D41F46811E00F5415C /* heartMenu.png */,
+				AF10A7D51F46811E00F5415C /* add.png */,
+				AF10A7D61F46811E00F5415C /* search.png */,
+				AF10A7D71F46811E00F5415C /* home.png */,
+				AF10A7D81F46811E00F5415C /* Profile.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
 		AF2581791F38FB4A00912FD1 = {
 			isa = PBXGroup;
 			children = (
 				AF2581841F38FB4A00912FD1 /* Parse Instagram Clone */,
+				AFBD314A1F3CF7230028885D /* OneSignalNotificationServiceExtension */,
 				AF2581831F38FB4A00912FD1 /* Products */,
+				C0090ACCAB50DE0193FE753C /* Pods */,
+				C11466D82B0FF961C4DA514A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				AF2581821F38FB4A00912FD1 /* Parse Instagram Clone.app */,
+				AFBD31491F3CF7220028885D /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +175,48 @@
 		AF2581841F38FB4A00912FD1 /* Parse Instagram Clone */ = {
 			isa = PBXGroup;
 			children = (
+				AF10A7CE1F4680AA00F5415C /* icons */,
+				AFBD31441F3CF2970028885D /* Parse Instagram Clone.entitlements */,
 				AF2581851F38FB4A00912FD1 /* AppDelegate.swift */,
-				AF2581871F38FB4A00912FD1 /* FirstViewController.swift */,
-				AF2581891F38FB4A00912FD1 /* SecondViewController.swift */,
+				AF2581871F38FB4A00912FD1 /* FeedVC.swift */,
+				AF2581891F38FB4A00912FD1 /* UploadVC.swift */,
 				AF25818B1F38FB4A00912FD1 /* Main.storyboard */,
-				AF25818E1F38FB4A00912FD1 /* Assets.xcassets */,
+				AFBD31401F3AAD900028885D /* FeedCell.swift */,
+				AFBD31421F3AB1490028885D /* addimage.png */,
+				AF2581991F38FD0B00912FD1 /* SignUpVC.swift */,
 				AF2581901F38FB4A00912FD1 /* LaunchScreen.storyboard */,
 				AF2581931F38FB4A00912FD1 /* Info.plist */,
 			);
 			path = "Parse Instagram Clone";
+			sourceTree = "<group>";
+		};
+		AFBD314A1F3CF7230028885D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD314B1F3CF7230028885D /* NotificationService.swift */,
+				AFBD314D1F3CF7230028885D /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		C0090ACCAB50DE0193FE753C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3BC95FBCC981C85F44FDB /* Pods-Parse Instagram Clone.debug.xcconfig */,
+				B46A73495F8DCDEFF90B0692 /* Pods-Parse Instagram Clone.release.xcconfig */,
+				6CC68F3FB1BCD3EDDB8B65B6 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				43A4E15563B1889718DE2506 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C11466D82B0FF961C4DA514A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0111453A64D364CB2819A425 /* Pods_Parse_Instagram_Clone.framework */,
+				5519D3774E6E2EF16A8C5486 /* Pods_Parse_Instagram_Clone_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +226,42 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF2581961F38FB4A00912FD1 /* Build configuration list for PBXNativeTarget "Parse Instagram Clone" */;
 			buildPhases = (
+				1820ECFCBB1B59C3577A1B4C /* [CP] Check Pods Manifest.lock */,
 				AF25817E1F38FB4A00912FD1 /* Sources */,
 				AF25817F1F38FB4A00912FD1 /* Frameworks */,
 				AF2581801F38FB4A00912FD1 /* Resources */,
+				C5A303FA58C8E762B7AA3144 /* [CP] Embed Pods Frameworks */,
+				FE89F768AA6CC9E1BE25FC66 /* [CP] Copy Pods Resources */,
+				AFBD31541F3CF7230028885D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AFBD314F1F3CF7230028885D /* PBXTargetDependency */,
 			);
 			name = "Parse Instagram Clone";
 			productName = "Parse Instagram Clone";
 			productReference = AF2581821F38FB4A00912FD1 /* Parse Instagram Clone.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AFBD31481F3CF7220028885D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBD31511F3CF7230028885D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				3E1BC8F62C42C665FD91A484 /* [CP] Check Pods Manifest.lock */,
+				AFBD31451F3CF7220028885D /* Sources */,
+				AFBD31461F3CF7220028885D /* Frameworks */,
+				AFBD31471F3CF7220028885D /* Resources */,
+				F10B411C8A4C54AFE3E31FFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = AFBD31491F3CF7220028885D /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +274,22 @@
 				ORGANIZATIONNAME = Sophian;
 				TargetAttributes = {
 					AF2581811F38FB4A00912FD1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9AL72XEQ7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AFBD31481F3CF7220028885D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = C9AL72XEQ7;
 						ProvisioningStyle = Automatic;
@@ -118,6 +310,7 @@
 			projectRoot = "";
 			targets = (
 				AF2581811F38FB4A00912FD1 /* Parse Instagram Clone */,
+				AFBD31481F3CF7220028885D /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,26 +320,159 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF10A7EF1F474EBF00F5415C /* 48X48.png in Resources */,
+				AF10A7DC1F46811E00F5415C /* ProfileMenu.png in Resources */,
+				AF10A7F41F4751A800F5415C /* 60X60.png in Resources */,
+				AF10A7F21F47515900F5415C /* 58X58.png in Resources */,
 				AF2581921F38FB4A00912FD1 /* LaunchScreen.storyboard in Resources */,
+				AF10A7DA1F46811E00F5415C /* comment.png in Resources */,
+				AF10A7F61F47523100F5415C /* 87X87.png in Resources */,
+				AF10A7E21F46811E00F5415C /* Profile.png in Resources */,
+				AF10A7E81F46C7DF00F5415C /* camera.png in Resources */,
+				AF10A7DE1F46811E00F5415C /* heartMenu.png in Resources */,
 				AF25818F1F38FB4A00912FD1 /* Assets.xcassets in Resources */,
+				AF10A7D91F46811E00F5415C /* Sent.png in Resources */,
+				AF10A7DF1F46811E00F5415C /* add.png in Resources */,
+				AF10A7E01F46811E00F5415C /* search.png in Resources */,
+				AF10A7EC1F474BEC00F5415C /* 180X180.png in Resources */,
+				AF10A7F01F474EBF00F5415C /* 55X55.png in Resources */,
 				AF25818D1F38FB4A00912FD1 /* Main.storyboard in Resources */,
+				AFBD31431F3AB1490028885D /* addimage.png in Resources */,
+				AF10A7EB1F474BEC00F5415C /* 120X120.png in Resources */,
+				AF10A7E11F46811E00F5415C /* home.png in Resources */,
+				AF10A7DB1F46811E00F5415C /* ProfilePost.png in Resources */,
+				AF10A7DD1F46811E00F5415C /* heartPost.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBD31471F3CF7220028885D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1820ECFCBB1B59C3577A1B4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse Instagram Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1BC8F62C42C665FD91A484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A303FA58C8E762B7AA3144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Parse Instagram Clone/Pods-Parse Instagram Clone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parse Instagram Clone/Pods-Parse Instagram Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10B411C8A4C54AFE3E31FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension/Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE89F768AA6CC9E1BE25FC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parse Instagram Clone/Pods-Parse Instagram Clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF25817E1F38FB4A00912FD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF25818A1F38FB4A00912FD1 /* SecondViewController.swift in Sources */,
+				AF25819A1F38FD0B00912FD1 /* SignUpVC.swift in Sources */,
+				AFBD31411F3AAD900028885D /* FeedCell.swift in Sources */,
+				AF25818A1F38FB4A00912FD1 /* UploadVC.swift in Sources */,
 				AF2581861F38FB4A00912FD1 /* AppDelegate.swift in Sources */,
-				AF2581881F38FB4A00912FD1 /* FirstViewController.swift in Sources */,
+				AF2581881F38FB4A00912FD1 /* FeedVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBD31451F3CF7220028885D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBD314C1F3CF7230028885D /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFBD314F1F3CF7230028885D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFBD31481F3CF7220028885D /* OneSignalNotificationServiceExtension */;
+			targetProxy = AFBD314E1F3CF7230028885D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF25818B1F38FB4A00912FD1 /* Main.storyboard */ = {
@@ -265,8 +591,11 @@
 		};
 		AF2581971F38FB4A00912FD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA3BC95FBCC981C85F44FDB /* Pods-Parse Instagram Clone.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Parse Instagram Clone/Parse Instagram Clone.entitlements";
 				DEVELOPMENT_TEAM = C9AL72XEQ7;
 				INFOPLIST_FILE = "Parse Instagram Clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -278,13 +607,44 @@
 		};
 		AF2581981F38FB4A00912FD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46A73495F8DCDEFF90B0692 /* Pods-Parse Instagram Clone.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Parse Instagram Clone/Parse Instagram Clone.entitlements";
 				DEVELOPMENT_TEAM = C9AL72XEQ7;
 				INFOPLIST_FILE = "Parse Instagram Clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.achiba.Parse-Instagram-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFBD31521F3CF7230028885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC68F3FB1BCD3EDDB8B65B6 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9AL72XEQ7;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achiba.Parse-Instagram-Clone.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFBD31531F3CF7230028885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A4E15563B1889718DE2506 /* Pods-Parse Instagram Clone-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C9AL72XEQ7;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achiba.Parse-Instagram-Clone.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -308,6 +668,16 @@
 				AF2581981F38FB4A00912FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFBD31511F3CF7230028885D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBD31521F3CF7230028885D /* Debug */,
+				AFBD31531F3CF7230028885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
