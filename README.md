@@ -23,11 +23,11 @@ Also notifications were added using OneSignal.
 ## Run the app
 1- Check out the code locally.  
 2- Create your parse server:  [bitnami](https://bitnami.com/stack/parse/cloud/aws)  
-3- update your ParseClientConfiguration in the AppDelegate file.  
+3- Update your ParseClientConfiguration in the AppDelegate file.  
 4- Run the app!  
   
 Bonus: Nofitications  
-5- create an account with OneSignal.  
+5- Create an account with OneSignal.  
 6- Update OneSignal.initWithLaunchOptions in the AppDelegate file.  
 
 This is obviously not a production app but I hope this helps you understand how BaaS work as well as some foundamental of app developement.
