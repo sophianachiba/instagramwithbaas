@@ -8,23 +8,24 @@ Also notifications were added using OneSignal.
 
 
 ## The features available
-Login / sign up.  
-Pictures upload.  
-Likes + notifications.   
-Instragram like icons.  
+* Login / sign up.  
+* Pictures upload.  
+* Likes + notifications.   
+* Instragram like icons.  
 
 ## Tools used
-Xcode: app is developed in Swift.  
-Parse: as back end server.  
-Aws: to host Parse.  
-One signal: to handle app nofitication.  
-Sktech: to design/create icons.  
+* Xcode: app is developed in Swift.  
+* Parse: as back end server.  
+* AWS: to host Parse.  
+* One signal: for app nofitications.  
+* Sktech: to design/create icons.  
 
 ## Run the app
 1- Check out the code locally.  
 2- Create your parse server: https://bitnami.com/stack/parse/cloud/aws.  
 3- update your ParseClientConfiguration in the AppDelegate file.  
 4- Run the app!  
+  
 Bonus: Nofitications  
 5- create an account with OneSignal.  
 6- Update OneSignal.initWithLaunchOptions in the AppDelegate file.  
