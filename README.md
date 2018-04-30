@@ -22,7 +22,7 @@ Also notifications were added using OneSignal.
 
 ## Run the app
 1- Check out the code locally.  
-2- Create your parse server:  [bitnami](https://bitnami.com/stack/parse/cloud/aws)
+2- Create your parse server:  [bitnami](https://bitnami.com/stack/parse/cloud/aws)  
 3- update your ParseClientConfiguration in the AppDelegate file.  
 4- Run the app!  
   
