@@ -1,10 +1,7 @@
 # Instragram with Back end as a service (BaaS)
 
-This project showcase how to build a lighter version of instagram using BaaS techologies such as Parse.  
-This means no back end code was written but only front end.  
-Your Parse server can be running anywhere but I would recommend aws + bitnami (more info below).  
-Similarly, the same can be built with Firebase.  
-Also notifications were added using OneSignal.  
+  This project showcase how to build a lighter version of instagram using BaaS techologies such as Parse.This means no back end code was written but only front end.Your Parse server can be running anywhere but I would recommend aws + bitnami (more info below).  
+  Similarly, the same can be built with Firebase and finally notifications were added using OneSignal.  
 
 
 ## The features available
