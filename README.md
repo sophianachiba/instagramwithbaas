@@ -1,7 +1,7 @@
 # Instragram with Back end as a service (BaaS)
 
-  This project showcase how to build a lighter version of instagram using BaaS techologies such as Parse.This means no back end code was written but only front end.Your Parse server can be running anywhere but I would recommend aws + bitnami (more info below).  
-  Similarly, the same can be built with Firebase and finally notifications were added using OneSignal.  
+  This project showcase how to build a lighter version of instagram using BaaS techologies such as Parse. This means no backend code was written, the entirety of the code is in the front end. Your Parse server can be running anywhere but I would recommend aws + bitnami (more info below). Similarly, the same can be built with Firebase or other baas providers. 
+  Finally notifications were added using OneSignal.  
 
 
 ## The features available
@@ -9,6 +9,8 @@
 * Pictures upload.  
 * Likes + notifications.   
 * Instragram like icons.  
+
+<img src="screenshots/icon.png" width="30%"> <img src="screenshots/homescreen.png" width="30%"> <img src="screenshots/notification.PNG" width="30%">
 
 ## Tools used
 * Xcode: app is developed in Swift.  
@@ -27,4 +29,4 @@ Bonus: Nofitications
 5- Create an account with OneSignal.  
 6- Update OneSignal.initWithLaunchOptions in the AppDelegate file.  
 
-This is obviously not a production app but I hope this helps you understand how BaaS work as well as some foundamental of app developement.
+This is obviously not a production app but I hope this helps you understand how BaaS work as well as some foundamental of app developement in swift.
