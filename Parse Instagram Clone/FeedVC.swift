@@ -35,12 +35,20 @@ class FeedVC: UIViewController,UITableViewDelegate, UITableViewDataSource {
         let userID = status.subscriptionStatus.userId
         let pushToken = status.subscriptionStatus.pushToken
         
-        if userID != nil{
+        if (userID != nil && PFUser.current() != nil){
             let user = PFUser.current()!.username!
             let object = PFObject(className: "PlayerID")
             object["username"] = user
             object["playerID"] = userID
             object.saveEventually()
+        }else{
+            UserDefaults.standard.removeObject(forKey: "userloggedin")
+            UserDefaults.standard.synchronize()
+            let signupvc = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC") as! SignUpVC
+            let delegate : AppDelegate = UIApplication.shared.delegate as! AppDelegate
+            delegate.window?.rootViewController = signupvc
+            
+            delegate.rememberLogIn()
         }
         
     }
