@@ -21,7 +21,7 @@
 
 ## Run the app
 1- Check out the code locally.  
-2- Create your parse server:  [bitnami](https://bitnami.com/stack/parse/cloud/aws)  
+2- Create your parse server:  [sashido](https://www.sashido.io/)  
 3- Update your ParseClientConfiguration in the AppDelegate file.  
 4- Run the app!  
   
