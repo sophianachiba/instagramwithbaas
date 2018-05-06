@@ -21,7 +21,7 @@
 
 ## Run the app
 1- Check out the code locally.  
-2- Create your parse server:  [sashido](https://www.sashido.io/)  
+2- Create your parse server:  [sashido](https://www.sashido.io/)  or any parse hosting solution.
 3- Update your ParseClientConfiguration in the AppDelegate file.  
 4- Run the app!  
   
