@@ -17,37 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
-        //ONE SIGNAL
-        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
-        // Replace '11111111-2222-3333-4444-0123456789ab' with your OneSignal App ID.
-        OneSignal.initWithLaunchOptions(launchOptions,
-                                        appId: "your_onesignal_id",
-                                        handleNotificationAction: nil,
-                                        settings: onesignalInitSettings)
-        
-        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
-        
-        // Recommend moving the below line to prompt for push after informing the user about
-        //   how your app will use them.
-        OneSignal.promptForPushNotifications(userResponse: { accepted in
-            print("User accepted notifications: \(accepted)")
-        })
-        
-        // Sync hashed email if you have a login system or collect it.
-        //   Will be used to reach the user at the most optimal time of day.
-        // OneSignal.syncHashedEmail(userEmail)
-        
-        
-        
-        
+        //************* PARSE *****************
         let config = ParseClientConfiguration { (ParseMutableClientConfiguration) in
-            ParseMutableClientConfiguration.applicationId = "your_parse_applicationid"
-            ParseMutableClientConfiguration.clientKey = "your_parsekey"
-            ParseMutableClientConfiguration.server = "your_server_address:80/parse"
+            ParseMutableClientConfiguration.applicationId = "yourAppId"
+            ParseMutableClientConfiguration.clientKey = "yourClientKey"
+            ParseMutableClientConfiguration.server = "yourServerAddress"
         }
-        
         Parse.initialize(with: config)
         
         let defaultACL = PFACL()
@@ -55,6 +31,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         defaultACL.getPublicWriteAccess = true
         
         PFACL.setDefault(defaultACL, withAccessForCurrentUser: true)
+        
+        
+        
+        //****** ONE SIGNAL *************
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
+        // Replace 'your_onesignal_id' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+                                        appId: "your_onesignal_id",
+                                        handleNotificationAction: nil,
+                                        settings: onesignalInitSettings)
+        
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+        })
         
         rememberLogIn()
         
