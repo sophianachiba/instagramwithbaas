@@ -23,7 +23,7 @@
 1- Check out the code locally.  
 2- Create your parse server:  [sashido](https://www.sashido.io/)  or any parse hosting solution.  
 3- Update your ParseClientConfiguration in the AppDelegate file.  
-4- Run the app! (use Iphone 6 simulator for optimal size display)
+4- Open .xcworkspace (not .xcodeproj) and run the app! (use Iphone 6 simulator for optimal size display)
   
 Bonus: Nofitications  
 5- Create an account with OneSignal.  
